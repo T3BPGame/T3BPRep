@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b4be2a7e.css",
+    "main.js": "./static/js/main.9139aafc.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "./static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
+    "static/media/NewsCycle-Regular.ttf": "./static/media/NewsCycle-Regular.bd11eccf2551e3ea6af2.ttf",
+    "static/media/SpaceMono-Regular.ttf": "./static/media/SpaceMono-Regular.8a2aa304d0bd5e41d186.ttf",
+    "index.html": "./index.html",
+    "main.b4be2a7e.css.map": "./static/css/main.b4be2a7e.css.map",
+    "main.9139aafc.js.map": "./static/js/main.9139aafc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4be2a7e.css",
+    "static/js/main.9139aafc.js"
+  ]
+}
