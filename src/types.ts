@@ -19,6 +19,7 @@ export enum GameEngine {
 export enum MediaType {
   Image = "image",
   YouTube = "youtube",
+  Video = "video"
 }
 
 export interface MediaItem {

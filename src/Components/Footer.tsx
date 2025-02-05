@@ -27,10 +27,7 @@ height: 16px;
 const Footer: React.FC = () => {
     return (
         <FooterContainer>
-            <p>This Portfolio was made by</p>
-            <MyLink href="https://solilius.github.io/portfolio/#/about-me" target="_blank"> Sol Elan</MyLink>
-            <Icon src={`${process.env.PUBLIC_URL}/favicon.ico`} />
-            <a href="https://github.com/solilius/portfolio-template" target="_blank"> click for free template</a>
+            
         </FooterContainer>
     );
 };

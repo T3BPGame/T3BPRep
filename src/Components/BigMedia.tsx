@@ -28,6 +28,14 @@ const MediaImage = styled.img`
   cursor: pointer;
 `;
 
+const MediaVideo = styled.video`
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  cursor: pointer;
+`;
+
 const PopupOverlay = styled.div`
   position: fixed;
   top: 0;
@@ -75,6 +83,11 @@ const BigMedia: React.FC<MediaItem> = ({ source, type }) => {
           />
         ) : (
           <MediaImage src={`${process.env.PUBLIC_URL}${source}`} alt="Game Media" />
+        )}
+        {type === MediaType.Video ? (
+          <MediaIframe/>
+        ) : (
+          <MediaImage/>
         )}
       </MediaWrapper>
 

@@ -65,7 +65,9 @@ const App: React.FC = () => {
           <NavbarLink to="/about-me">About</NavbarLink>
           <NavbarLink to="/contact">Contact</NavbarLink>
         </Navbar>
-
+        <video width="750" height="500" controls>
+          <source src="/files/VisionDocVideo1.mp4" type="video/mp4" />
+        </video>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactPage />} />
