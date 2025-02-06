@@ -2,11 +2,10 @@ import React from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { styled } from "styled-components";
 import MainPage from "./Pages/MainPage";
-import ContactPage from "./Pages/ContactPage";
 import SelfSummary from "./Components/SelfSummary";
-import AboutMe from "./Pages/AboutMe";
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
+import Video from './assets/VisionDocVideo1.mp4';
 
 const AppContainer = styled(Column)`
   padding: 60px;
@@ -59,19 +58,11 @@ const App: React.FC = () => {
     <Router>
       <AppContainer>
         <SelfSummary />
-
-        <Navbar>
-          <NavbarLink to="/">Project</NavbarLink>
-          <NavbarLink to="/about-me">About</NavbarLink>
-          <NavbarLink to="/contact">Contact</NavbarLink>
-        </Navbar>
-        <video width="750" height="500" controls>
-          <source src="%PUBLIC_URL%/files/VisionDocVideo1.webm" type="video/mp4" />
+        <video className="video" width="750" height="500" controls>
+          <source src={Video} type="video/mp4" />
         </video>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about-me" element={<AboutMe />} />
         </Routes>
       </AppContainer>
         <Footer/>

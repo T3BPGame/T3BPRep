@@ -29,7 +29,6 @@ export interface MediaItem {
 
 export interface AboutMeData {
   name: string;
-  role: string;
   description: string;
   introduction: string;
   image: string;
