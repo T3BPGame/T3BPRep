@@ -5,7 +5,7 @@ import MainPage from "./Pages/MainPage";
 import SelfSummary from "./Components/SelfSummary";
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
-import Video from './assets/VisionDocVideo1.mp4';
+import Video from './assets/VisionDocVideo1.webm';
 
 const AppContainer = styled(Column)`
   padding: 60px;
