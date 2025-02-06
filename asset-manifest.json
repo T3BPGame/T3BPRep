@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.5e74bfba.css",
-    "main.js": "./static/js/main.9442ce85.js",
+    "main.js": "./static/js/main.156e0ce5.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "./static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/NewsCycle-Regular.ttf": "./static/media/NewsCycle-Regular.bd11eccf2551e3ea6af2.ttf",
     "static/media/SpaceMono-Regular.ttf": "./static/media/SpaceMono-Regular.8a2aa304d0bd5e41d186.ttf",
     "index.html": "./index.html",
     "main.5e74bfba.css.map": "./static/css/main.5e74bfba.css.map",
-    "main.9442ce85.js.map": "./static/js/main.9442ce85.js.map"
+    "main.156e0ce5.js.map": "./static/js/main.156e0ce5.js.map"
   },
   "entrypoints": [
     "static/css/main.5e74bfba.css",
-    "static/js/main.9442ce85.js"
+    "static/js/main.156e0ce5.js"
   ]
 }
